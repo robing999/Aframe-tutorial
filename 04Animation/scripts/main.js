@@ -6,7 +6,6 @@ var myOtherBox = document.getElementById('myOtherBox');
 
 function spin(){
 myOtherBox.object3D.rotation.x += rotationSpeed;
- myOtherBox.object3D.rotation.y += 1.0;
  	console.log( myOtherBox.object3D.rotation.x);
  }
 
